@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link a mi css-->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <title>PreEntrega3-Luna</title>
+</head>
+
+<body>
+
+    <h1>CÁLCULOS PARA AREAS <span>DE</span> CUADRADOS, TRIANGULOS <span>Y</span> CIRCUNFERENCIAS</h1>
+
+    <div class="areas">
+
+        <div class="areaTriangulo">
+            <div class="imgTriangulo">
+                <img src="img/formula-triangulo.jpg" class="triangulo" alt="imagen de un trinagulo">
+            </div>
+            <p>Ingrese la medida (m2) de la base del triangulo </p>
+            <input type="text" id="base" placeholder="Base">
+            <p>Ingrese la medida (m2) de la base del triangulo </p>
+            <input type="text" id="altura" placeholder="Altura">
+            <button id="btnTriangulo">CALCULAR AREA</button>
+            <div id="resultTriangulos"></div>
+        </div>
+
+        <div class="areaCuadrado">
+            <div class="imgCuadrado">
+                <img src="img/perimetro-de-un-cuadrado.jpg" class="cuadrado" alt="imagen de un cudrado">
+            </div>
+            <p>Ingrese la medida (m2) del lado del cuadrado </p>
+            <input type="text" id="lados" placeholder="Medida de uno de los lados">
+            <button id="btnCuadrado">CALCULAR AREA</button>
+            <div id="resultCuadrados"></div>
+        </div>
+
+        <div class="areaCirculo">
+            <div class="imgCirculo">
+                <img src="img/radio-de-un-circulo-1.jpg" class="circulo" alt="imagen de un circulo">
+            </div>
+            <p>Ingrese la medida (m2) del radio del circulo </p>
+            <input type="text" id="radio" placeholder="Medida del radio">
+            <button id="btnCirculo">CALCULAR AREA</button>
+            <div id="resultCirculos"></div>
+        </div>
+
+    </div>
+
+    <script src="./script/main.js"></script>
+    
+</body>
+
+</html>

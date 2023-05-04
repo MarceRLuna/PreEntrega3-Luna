@@ -1,0 +1,130 @@
+
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+
+body{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    background-color: brown;
+    align-items: center;
+    column-gap: .3rem;
+    row-gap: 2rem;
+}
+
+.areas{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}
+
+.areas p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.areas input {
+    height: 1.9rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.areaTriangulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 7rem;    
+}
+
+.areaCuadrado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.areaCirculo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+
+h1{
+    width: 70%;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;    
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
+}
+
+h1 span{
+    display: block;
+}
+
+.cuadrado{
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    
+}
+
+.triangulo{
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.circulo{
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+}
+
+#btnTriangulo{
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+}
+
+#btnCuadrado{
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+}
+
+#btnCirculo{
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+}
+
+
+

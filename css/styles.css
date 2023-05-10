@@ -8,19 +8,17 @@
 
 
 body{
-    height: 1000px;
-    display: flex;
-    flex-direction: column;
-    background-color: brown;
-    align-items: center;
-    column-gap: .3rem;
-    row-gap: 2rem;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: brown;    
+    row-gap: 3rem;
 }
 
 .areas{
-    height: 400px;
+    min-height: 50vh;
     display: flex;
-    align-items: center;
+    align-items:first baseline;
     justify-content: center;
     text-align: center;    
 }
@@ -41,15 +39,58 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
-    margin-top: 7rem;    
+    gap: 1rem;    
+}
+
+#pantalla{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;    
+}
+
+#segundaPantalla{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;
 }
 
 .areaCuadrado{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
+    display: grid;
+    place-items: center;
+    grid-template-rows: repeat(5, .1fr);
+    gap: 1rem;    
+}
+
+#pantallaCuadrado{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;    
+}
+
+#segundaPantallaC{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;
 }
 
 .areaCirculo{
@@ -60,6 +101,27 @@ body{
     
 }
 
+#pantallaCirculo{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;    
+}
+
+#segundaPantallaCirculo{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;
+}
 
 h1{
     width: 70%;
@@ -78,21 +140,18 @@ h1 span{
 }
 
 .cuadrado{
-    height: 50%;
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
     
 }
 
 .triangulo{
-    height: 50%;
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
 }
 
 .circulo{
-    height: 50%;
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
 }
 
@@ -104,6 +163,12 @@ h1 span{
     font-size: 1rem;
     border-radius: 10px;
     box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+input:hover{
+    background-color: rgb(223, 235, 235);
+    color: rgb(70, 78, 85);
 }
 
 #btnCuadrado{
@@ -114,6 +179,7 @@ h1 span{
     font-size: 1rem;
     border-radius: 10px;
     box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
 }
 
 #btnCirculo{
@@ -124,6 +190,47 @@ h1 span{
     font-size: 1rem;
     border-radius: 10px;
     box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+#borrarTriangulo {
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+#borrarCuadrado {
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+#borrarCirculo {
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+footer{
+    padding: 1rem;
+    background-color: bisque;
+    width: 100%;
+    text-align: center;
 }
 
 

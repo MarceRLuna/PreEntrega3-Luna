@@ -19,6 +19,7 @@ Como ser los siguientes:
 * DOM
 * Eventos
 * Funciones de orden superior - uso de la función Math
+* LocalStorage - almacenamieto y recuperación
 ## Feedback
 
 Este trabajo es solamente para la entraga del práctico nro. 3, su estructura no debiera ser tomada necesariamente como propuesta para mi proyecto real.
